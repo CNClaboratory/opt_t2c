@@ -2,7 +2,7 @@
 
 ## Summary
 
-This is a toolbox for analyzing optimal type 2 criterion setting in classical Signal Detection Theory, as well as extensions to SDT that contain additional computational process influencing metacognitive decision making. It considers optimal type 2 criterion setting under several different optimization objectives: maximizing type 2 accuracy, maximizing type 2 reward, calibrating confidence to a threshold level of accuracy, and maximizing the difference between type 2 hit rate and type 2 false alarm rate.
+This is a toolbox for analyzing optimal type 2 criterion setting in classical Signal Detection Theory (SDT), as well as extensions to SDT that contain additional computational process influencing metacognitive decision making. It considers optimal type 2 criterion setting under several different optimization objectives: maximizing type 2 accuracy, maximizing type 2 reward, calibrating confidence to a threshold level of accuracy, and maximizing the difference between type 2 hit rate and type 2 false alarm rate.
 
 This toolbox is a companion piece to a manuscript by Brian Maniscalco, Lucie Charles, & Megan Peters titled "Optimal Metacognitive Decision Strategies in Signal Detection Theory" (in review). The code can be used to reproduce and alter the analyses in that manuscript, as well as to conduct novel analyses.
 
