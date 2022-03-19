@@ -13,7 +13,7 @@ This toolbox is a companion piece to a manuscript by Brian Maniscalco, Lucie Cha
 The root folder of the toolbox contains the main functions used to conduct the analyses.
 
 - `opt_t2c` is a function that uses equations derived from classical SDT to compute optimal type 2 criteria, given an optimization objective and parameter settings.
-- `opt_t2c_sim` is a function that uses computational simulations to find optimal type 2 criteria in models that extend classical SDT by allowing type 2 evidence samples to differ from their type 1 counterparts. The simulation can be performed for any such possible model, provided that a function describing the model is provided. Details of how to do this are provided in the `opt_t2c_sim`'s documentation, and examples of implementing this functionality are provided in the simulation scripts described below.
+- `opt_t2c_sim` is a function that uses computational simulations to find optimal type 2 criteria in models that extend classical SDT by allowing type 2 evidence samples to differ from their type 1 counterparts. The simulation can be performed for any such possible model, provided that a function describing the model is provided. Details of how to do this are provided in `opt_t2c_sim`'s documentation, and examples of implementing this functionality are provided in the simulation scripts described below.
 - `t2noisySignalLoss` is a function that implements one such extension to classical SDT. In this model, type 2 evidence samples can undergo signal loss and receive additional noise. (Note that this function can implement both the "type 2 noise" and "type 2 signal loss" models described in the manuscript, hence the combined name "noisy signal loss".)
 
 ### Analysis scripts
