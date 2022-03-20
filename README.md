@@ -41,7 +41,7 @@ The `simulation` folder contains scripts that use `opt_t2c_sim` to plot the effe
 
 To calibrate confidence to accuracy, the observer must find the location on the decision axis where estimated p(correct) equals the threshold level of accuracy, p(correct)T. It is ideal for the observer to use type 1 evidence samples for this purpose, but this has the consequence that type 2 noise does not affect calibration performance. Thus in `opt_t2c_sim` it is assumed that the observer uses type 2 evidence samples to estimate p(correct), in order to conduct an analysis on calibration under type 2 noise that is not trivial. Thus the results of these simulations reflect optimal type 2 criterion setting *given that* the observer estimates p(correct) using type 2 evidence samples.
 
-In the plots produced by `opt_t2c_sim_sd2s` and `opt_t2c_sim_ks`, the plots for "estimated p(correct) at optimal c2" when "ignoring type 2 model (calc)" correspond to the observer's estimatation of p(correct) (as computed from type 2 evidence samples) at the location of the decision axis corresponding to the optimal type 2 criterion under classical SDT (which has no type 2 noise).
+In the plots produced by `opt_t2c_sim_sd2s` and `opt_t2c_sim_ks`, the plots for "estimated p(correct) at optimal c2" when "ignoring type 2 model (calc)" correspond to the observer's estimation of p(correct) (as computed from type 2 evidence samples) at the location of the decision axis corresponding to the optimal type 2 criterion under classical SDT (which has no type 2 noise).
 
 ### Preserved qualitative patterns of optimal type 2 criterion setting under type 2 noise
 
